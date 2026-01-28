@@ -18,7 +18,7 @@ ch2_bubble: 4:00
 
 # chapter 3 
 
-ch3_juniors 8:44
+ch3 8:44
 
 # chapter 4 
 intro-to-infra: 6:00
