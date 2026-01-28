@@ -1,12 +1,15 @@
 import random 
 
 chance_of_success = [
-    0.55, 0.65, 0.85
+    0.55, 0.65
 ]
 
+task_count = 50
+
+print(f"number of tasks: {task_count}" )
 for chance in chance_of_success:
-    success = int(chance*100)
-    tasks = ['1']*success + ['0']*(100-success)
+    success = int(chance*task_count)
+    tasks = ['1']*success + ['0']*(task_count-success)
     tasks.sort(key=lambda x:random.random())
     tasks = ''.join(tasks)
 
